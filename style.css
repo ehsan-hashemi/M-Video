@@ -1,0 +1,48 @@
+body {
+    font-family: Dubai;
+    background-color: #525083;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: chartreuse;
+}
+
+p {
+    color: white;
+}
+
+video {
+    width:450px;
+    height:250px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.copyrights {
+    text-align: center;
+    direction: ltr;
+    color: red;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
