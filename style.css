@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(/Vazir-Regular.ttf);
+}
+
 body {
-    font-family: Dubai;
+    font-family: "Vazir";
     background-color: #525083;
     margin: 0;
     padding: 0;
@@ -80,4 +85,46 @@ video {
     background-color: blue;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.quote-box {
+    font-family: "Vazir";
+    font-size: 20px;
+    text-align: justify;
+    direction: rtl; /* متن راست‌چین شود */
+    color: white;
+    position: relative;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: blue;
+    border: 1px solid #525083;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    line-height: 1.8;
+    font-family: "Vazir";
+  }
+
+  .quote-box::before {
+    content: '“';
+    font-size: 80px;
+    color: #525083;
+    position: absolute;
+    top: -10px;
+    right: 20px; /* علامت نقل قول بالا به سمت راست */
+  }
+
+  .quote-box::after {
+    content: '”';
+    font-size: 80px;
+    color: #525083;
+    position: absolute;
+    bottom: -30px;
+    left: 20px; /* علامت نقل قول پایین به سمت چپ */
+    transform: rotate(180deg);
+  }
+
+.afdgfr {
+    font-size: medium;
+    color: white;
 }
